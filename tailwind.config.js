@@ -14,6 +14,8 @@ module.exports = {
         '980': '61rem',
         '650': '40.625rem',
         '720': '45rem',
+        '950': '72rem',
+
       },
       height: {
         '350': '24rem',
@@ -22,6 +24,7 @@ module.exports = {
         '650': '35rem',
         '680': '37rem',
         '720': '40rem',
+        '950': '72rem',
 
       },
       fontFamily: {
@@ -33,7 +36,7 @@ module.exports = {
         primary: {
           light: '#a5d6a7', // Light shade of your primary color
           DEFAULT: '#259FC5', // Main primary color
-          dark: '#388e3c', // Dark shade of your primary color
+          dark: 'bg-sky-900', // Dark shade of your primary color
         },
       },
     },
