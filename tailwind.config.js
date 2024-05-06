@@ -11,6 +11,9 @@ module.exports = {
       width: {
         '350': '24rem',
         '450': '28rem',
+        '480': '29rem',
+        '500': '30rem',
+        '550': '32rem',
         '980': '61rem',
         '650': '40.625rem',
         '720': '45rem',
@@ -30,15 +33,22 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
-        abhay: ['Abhaya Libre', 'serif'],
+        abhaya: ['Abhaya Libre', 'serif'],
       },
       colors: {
         primary: {
           light: '#a5d6a7', // Light shade of your primary color
           DEFAULT: '#259FC5', // Main primary color
-          dark: 'bg-sky-900', // Dark shade of your primary color
+          dark: '#277D8E', // Dark shade of your primary color
         },
       },
+      backgroundColor: {
+        primary: {
+          light: '#a5d6a7', // Light shade of your primary color
+          DEFAULT: '#259FC5', // Main primary color
+          dark: '#277D8E', // Dark shade of your primary color
+        },
+      }
     },
   },
   plugins: [],

@@ -5,7 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Abhaya+Libre:wght@800&family=Roboto:wght@400;600&display=swap">
+<!--  fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="../css/output.css">
   <meta name="description" content="">
 
@@ -25,8 +30,8 @@
 
 <body>
 
-<!--hero section  -->
-<section class="hero bg-sky-900 bg-cover h-screen w-full items-stretch">
+<!--hero section  bg-sky-900-->
+<section class="hero  bg-[url('../img/background.png')] bg-cover h-screen w-full items-stretch">
 <!--  nav bar-->
   <div  class="flex justify-center">
     <div class="mt-6 mx-8 w-980 h-14 bg-[url('../img/blur.svg')] bg-center bg-cover
@@ -34,7 +39,7 @@
       <div class="w-2/5 flex items-center">
         <img src="../img/logo.svg" alt="logo">
       </div>
-      <div class="py-2 px-4 flex align-middle justify-center w-full font-roboto text-xl font-extrabold">
+      <div class="py-2 px-4 flex align-middle justify-center w-full font-roboto text-lg font-extrabold">
         <ul class="flex items-center font-medium space-x-14  justify-end text-amber-50">
           <li class="text-primary font-extrabold">Home</li>
           <li>About</li>
@@ -52,10 +57,34 @@
       <!--   sphere   -->
       <img class="justify-self-start w-64 h-64 absolute mx-12" src="../img/sphere.svg" alt="sphere">
       <!--    card -->
-      <div class="flex justify-self-end self-center rounded-xl absolute mt-20 mr-12
-                  bg-[url('../img/10.png')] bg-fixed bg-cover bg-sky-900/30 backdrop-blur-md  overflow-hidden">
-        <div class="justify-self-end self-end rounded-xl w-450 h-550">
-
+      <div class="flex justify-self-end self-center rounded-xl absolute mt-20 mr-12 ml-24 w-550 h-650 py-6 px-10
+                  bg-[url('../img/10.png')] bg-fixed bg-cover bg-sky-900/30 backdrop-blur-md  overflow-hidden items-stretch">
+        <div class="flex flex-col justify-self-end self-center space-y-8 items-stretch">
+          <div class="self-start">
+            <h1 class="text-amber-50 font-abhaya text-6xl font-extrabold">Leon Dhimba</h1>
+            <div class="w-2/5 h-3 bg-primary mt-1 mb-3"></div>
+            <h1 class="text-amber-50 font-abhaya text-6xl font-extrabold">Junior Software Engineer</h1>
+          </div>
+          <div>
+            <p class="text-neutral-200 font-poppins text-lg font-normal">I’m a junior software engineer with a passion
+              for web development and design. I have a degree in Software Engineering, specializing in Python and Java,
+              and I've built real-world projects that showcase my skills. I am a developer with strong desire to learn new
+              and grow. </p>
+          </div>
+          <div class="static flex flex-row items-stretch">
+            <img class="w-20 h-20 self-center -ml-8" src="../img/button%20glow.svg" alt="arrow">
+<!--            <button class="bg-primary-dark self-center text-amber-50 font-roboto text-lg font-medium my-2-->
+<!--                    px-4 py-2 rounded-full border-2 border-sky-400 border-gradient-to-r from-indigo-500  absolute">-->
+<!--              Contact Me-->
+<!--            </button>-->
+            <div class="self-center my-auto absolute inline-block p-0.5 bg-gradient-to-r from-sky-400 via-purple-500  to-white
+                        rounded-full">
+              <!-- Inner button with a white background and transparent border -->
+              <button class="bg-primary-dark text-amber-50 font-roboto text-lg font-medium px-4 py-2 rounded-full">
+                Contact Me
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
