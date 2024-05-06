@@ -681,8 +681,8 @@ video {
   width: 16rem;
 }
 
-.w-980 {
-  width: 61rem;
+.w-auto {
+  width: auto;
 }
 
 .w-full {
@@ -778,6 +778,11 @@ video {
   border-color: rgb(56 189 248 / var(--tw-border-opacity));
 }
 
+.bg-green-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(37 159 197 / var(--tw-bg-opacity));
@@ -796,12 +801,18 @@ video {
   background-color: rgb(255 255 255 / 0.1);
 }
 
-.bg-\[url\(\'\.\.\/img\/10\.png\'\)\] {
-  background-image: url('../img/10.png');
+.bg-primary-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 47 73 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/img\/background\.png\'\)\] {
-  background-image: url('../img/background.png');
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/img\/10\.png\'\)\] {
+  background-image: url('../img/10.png');
 }
 
 .bg-\[url\(\'\.\.\/img\/blur\.svg\'\)\] {
@@ -810,6 +821,10 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\.\/img\/11\.png\'\)\] {
+  background-image: url('../img/11.png');
 }
 
 .from-indigo-500 {
@@ -903,6 +918,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -915,9 +935,18 @@ video {
   font-weight: 400;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-amber-50 {
   --tw-text-opacity: 1;
   color: rgb(255 251 235 / var(--tw-text-opacity));
+}
+
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
 .text-neutral-200 {
@@ -928,6 +957,16 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(37 159 197 / var(--tw-text-opacity));
+}
+
+.text-pink-500 {
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
+.text-purple-500 {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
 .backdrop-blur-md {

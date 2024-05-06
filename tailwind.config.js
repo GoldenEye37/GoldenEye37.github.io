@@ -40,6 +40,7 @@ module.exports = {
           light: '#a5d6a7', // Light shade of your primary color
           DEFAULT: '#259FC5', // Main primary color
           dark: '#277D8E', // Dark shade of your primary color
+          background: '#082f49',
         },
       },
       backgroundColor: {
